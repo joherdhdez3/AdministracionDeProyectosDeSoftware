@@ -6,6 +6,7 @@ int main(){
     int vectorDos[N/2];
     int orientacionV1 = 0;
     int orientacionV2 = 0;
+    int puntoMay1, puntoMay2;
     for(int i = 0 ; i < N/2; i++){
         if(i < 4){
             scanf("%d", &vectorUno);
@@ -14,17 +15,25 @@ int main(){
         }
     }
     if(vectorUno[0] == vectorUno[2]){
-        return orientacionV1;
+        orientacionV1;
+        if(vectorUno[0] > vectorUno[2]){
+            puntoMay1 = vectorUno[0]
+        }
+        puntoMay1 = vectorUno[2]
     } 
     if(vectorUno[1] == vectorUno[3]){
-        return orientacionV1 = 1;
+        orientacionV1 = 1;
     }
     if(vectorDos[0] == vectorDos[2]){
-        return orientacionV2;
+        orientacionV2;
     } 
     if(vectorDos[1] == vectorDos[3]){
-        return orientacionV2 = 1;
+        orientacionV2 = 1;
     }
+    if(orientacionV1 =! orientacionV2){
+        
+    }
+    
 
 }
 int Pendiente(){
